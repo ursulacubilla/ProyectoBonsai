@@ -19,7 +19,7 @@ export const CardsArticle = styled.article`
     width: 80%;
     min-width: 190px;
     max-width: 300px;
-    height: 450px;
+    height: 600px;
     margin: 50px 5px 0;
     padding: 0 15px;
     background-color: white;
