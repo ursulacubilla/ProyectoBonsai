@@ -16,6 +16,8 @@ display: flex;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 60px 0 rgba(2,4,69,.05);
 `;
 
 export const DivInvite = styled.div`

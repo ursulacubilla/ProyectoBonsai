@@ -18,8 +18,8 @@ export const PlansList = () => {
 
       <Collaborators>
         <DivInvite>
-          <h3>Partners</h3>
-          <p>Invite other users for full account and company management.</p>
+          <HTres>Partners</HTres>
+          <Paragraph>Invite other users for full account and company management.</Paragraph>
         </DivInvite>
         <DivMonth>
           <p>$9 /MONTH</p>
@@ -28,8 +28,8 @@ export const PlansList = () => {
 
       <Collaborators>
         <DivInvite>
-          <h3>Bonsai Tax</h3>
-          <p>Tack expenses, identify write-offs, and estimate quarterly taxes easily.</p>
+          <HTres>Bonsai Tax</HTres>
+          <Paragraph>Tack expenses, identify write-offs, and estimate quarterly taxes easily.</Paragraph>
           <a href='#'>LEARN MORE ></a>
         </DivInvite>
         <DivMonth>
