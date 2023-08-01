@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 
 export const ContainerOne = styled.div`
+margin-top: 200px;
   display: flex;
   align-items: center;
 justify-content: space-evenly;
@@ -16,9 +17,8 @@ justify-content: center;
 export const CardsArticle = styled.article`
       /* position: relative; */
     scroll-snap-align: center;
-    width: 80%;
-    min-width: 190px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 350px;
     height: 600px;
     margin: 50px 5px 0;
     padding: 0 15px;

@@ -4,6 +4,7 @@ import { Plans } from './Components/Plans&Pricing/Plans'
 import { PlansList } from './Components/Plans/PlansList'
 import { ToHelpGrow } from './Components/ToHelp/ToHelpGrow'
 import { FrequentlyQuestions } from './Components/FrequentlyQuestions/FrequentlyQuestions'
+import { Footer } from './Components/Footer/Footer'
 // import './App.css'
 
 
@@ -17,6 +18,7 @@ function App() {
       <PlansList />
       <ToHelpGrow />
       <FrequentlyQuestions />
+      <Footer />
     </>
   )
 }
