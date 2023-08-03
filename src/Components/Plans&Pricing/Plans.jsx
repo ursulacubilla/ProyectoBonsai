@@ -7,7 +7,7 @@ export const Plans = () => {
     <>
     <ContainerOne>
     <h2>Plans & Pricing</h2>
-
+<br></br>
     <p>MONTHLY</p> 
     <button>encendido/apagado</button>
     <p> 2 MONTHS FREE! YEARLY</p>
