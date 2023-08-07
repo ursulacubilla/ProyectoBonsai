@@ -1,41 +1,43 @@
 import React from 'react'
-import { Container, Collaborators, DivMonth, DivInvite, Paragraph, HTres } from './PlansList-styled'
+import { Container, Collaborators, DivMonth, DivInvite, HTres, TitleHDos, ParagraphFree, ParagraphPartners, Text, PerMonth, Partners } from './PlansList-styled'
 
 export const PlansList = () => {
   return (
     <Container>
-      <p>Super Charge your work with add-ons</p>
+      <TitleHDos>Super Charge your work with add-ons</TitleHDos>
 
       <Collaborators>
         <DivInvite>
           <HTres>Collaborators</HTres>
-          <Paragraph>Invite other users to specific projects for limited access and functionality.</Paragraph>
+          <Text>Invite other users to specific projects for limited access and functionality.</Text>
         </DivInvite>
         <DivMonth>
-          <p>Free</p>
+          <ParagraphFree>Free</ParagraphFree>
         </DivMonth>
       </Collaborators>
 
-      <Collaborators>
+      <Partners>
         <DivInvite>
           <HTres>Partners</HTres>
-          <Paragraph>Invite other users for full account and company management.</Paragraph>
+          <Text>Invite other users for full account and company management.</Text>
         </DivInvite>
         <DivMonth>
-          <p>$9 /MONTH</p>
+          <ParagraphPartners>$9</ParagraphPartners>
+          <PerMonth>/MONTH</PerMonth>
         </DivMonth>
-      </Collaborators>
+      </Partners>
 
-      <Collaborators>
+      <div>
         <DivInvite>
           <HTres>Bonsai Tax</HTres>
-          <Paragraph>Tack expenses, identify write-offs, and estimate quarterly taxes easily.</Paragraph>
+          <Text>Tack expenses, identify write-offs, and estimate quarterly taxes easily.</Text>
           <a href='#'>LEARN MORE ></a>
         </DivInvite>
         <DivMonth>
-          <p>$10 /MONTH</p>
+          <ParagraphPartners>$10</ParagraphPartners>
+          <PerMonth>/MONTH</PerMonth>
         </DivMonth>
-      </Collaborators>
+      </div>
     </Container>
   )
 }

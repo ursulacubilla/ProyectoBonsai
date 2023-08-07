@@ -60,13 +60,14 @@ export const ParagraphCards = styled.div`
 
 
 export const SpanSimbolo = styled.span`
-position: relative;
+/* position: relative; */
     top: 10px;
     margin-right: 10px;
     align-self: flex-start;
     font-size: 30px;
     line-height: 28px;
     font-weight: 400;
+    margin-top: 15px;
 `;
 
 
@@ -132,7 +133,7 @@ width: 100%;
     letter-spacing: .7px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 156px;
+    margin-top: 180px;
 `;
 
 export const ButtonTwo = styled.button`
@@ -145,5 +146,5 @@ width: 100%;
     letter-spacing: .7px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 23px;
+    margin-top: 70px;
 `;
