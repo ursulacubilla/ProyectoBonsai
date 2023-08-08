@@ -1,21 +1,31 @@
 import { styled } from 'styled-components';
 
-export const DivFrequently=styled.div` margin-top: 50px;
-width: 70%;
-height: 250px;
-background-color: antiquewhite;
+export const DivFrequently=styled.div` 
+width: 50%;
 text-align: center;
 margin: 0 auto;
-margin-top: 10px;
-padding: 30px 20px 50px 50px;
+margin-top: 130px;
+`;
+
+export const SubtitleHDos = styled.h2`
+color: #00b289;
+font-family: 'Proximanova opt',sans-serif;
+font-size: 32px;
 `;
 
 
 export const Paragraph = styled.h2`
 text-align: start;
-font-size: 25px;
 color: #4c525a;
 font-family: 'Proximanova opt',sans-serif;
 margin-top: 20px;
 margin-bottom: 10px;
+background-image: url('/src/assets/59f05f389cd27200014f061e_icon-expand.png');
+background-position: 100% 50%;
+background-size: auto 20px;
+background-repeat: no-repeat;
+background-attachment: scroll;
+font-size: 25px;
+line-height: 30px;
+cursor: pointer;
 `;

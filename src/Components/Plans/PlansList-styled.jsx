@@ -6,7 +6,8 @@ export const Container = styled.div`
 display: flex;
 flex-direction: column;
 text-align: center;
-margin-top: 80px;
+margin-top: 100px;
+margin-bottom: 100px;
 `;
 
 export const TitleHDos = styled.h2`
@@ -15,6 +16,7 @@ font-size: 34px;
 font-family: 'Amerigo-bt roman opt';
 color: #4c525a;
 margin: 0;
+margin-bottom: 30px;
 `;
 
 export const Collaborators = styled.div`
@@ -107,4 +109,26 @@ export const Partners = styled.div`
     background-color: #fff;
     box-shadow: 0 0 60px 0 rgba(2,4,69,.05);
     padding: 10px 40px 5px;
+`;
+
+export const BonsaiTax = styled.div`
+display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 140px;
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 60px 0 rgba(2,4,69,.05);
+    padding: 30px 40px 25px;
+`;
+
+
+export const LinkA = styled.a`
+font-size: 14px;
+color: #00b289;
+font-weight: 600;
+font-family: 'Proximanova opt',sans-serif;
 `;
