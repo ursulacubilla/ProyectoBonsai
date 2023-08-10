@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Collaborators, DivMonth, DivInvite, HTres, TitleHDos, ParagraphFree, ParagraphPartners, Text, PerMonth, Partners, BonsaiTax, LinkA } from './PlansList-styled'
+import { Container, Collaborators, DivMonth, DivInvite, HTres, TitleHDos, ParagraphFree, ParagraphPartners, Text, PerMonth, Partners, BonsaiTax, LinkA, LearnMore } from './PlansList-styled'
 
 export const PlansList = () => {
   return (
@@ -31,7 +31,8 @@ export const PlansList = () => {
         <DivInvite>
           <HTres>Bonsai Tax</HTres>
           <Text>Tack expenses, identify write-offs, and estimate quarterly taxes easily.</Text>
-          <LinkA href='#'>LEARN MORE ></LinkA>
+          <LinkA href='#'>LEARN MORE</LinkA>
+          <LearnMore src='/src/assets/5e668ac7510abc913a5c1c13_learn-arrow.svg'/>
         </DivInvite>
         <DivMonth>
           <ParagraphPartners>$10</ParagraphPartners>

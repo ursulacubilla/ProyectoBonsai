@@ -132,3 +132,13 @@ color: #00b289;
 font-weight: 600;
 font-family: 'Proximanova opt',sans-serif;
 `;
+
+
+export const LearnMore = styled.img`
+position: relative;
+top: -1px;
+margin-left: 6px;
+width: 7px;
+/* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+transform-style: preserve-3d; */
+`;

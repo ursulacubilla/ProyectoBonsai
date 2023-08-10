@@ -28,4 +28,8 @@ background-attachment: scroll;
 font-size: 25px;
 line-height: 30px;
 cursor: pointer;
+
+&:hover {
+    color: #00b289;
+}
 `;
