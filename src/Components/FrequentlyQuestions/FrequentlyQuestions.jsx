@@ -1,15 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { DivFrequently, Paragraph, SubtitleHDos } from './Frequently-styled.jsx'
+import { FrequentlyText } from './FrequentlyText.jsx';
 
 export const FrequentlyQuestions = () => {
+    const [count, setCount] = useState(
+        new Array(FrequentlyText.length).fill(false)
+    );
+
+    const FunctionFunc = () => {
+        
+    
+    setCount(!count);
+
+        
+    }
+
+    console.log("hola", count);
     return (
         <DivFrequently>
             <SubtitleHDos>Frequently Asked Questions</SubtitleHDos>
-            <Paragraph>How does the free trial work?</Paragraph>
-            <Paragraph>Can I change plans anytime?</Paragraph>
-            <Paragraph>How do I pause my Bonsai subscription?</Paragraph>
-            <Paragraph>What is your refund policy?</Paragraph>
-           
+
+            {FrequentlyText.map(({ title, text, id }, index) => {
+                return (
+                    <div key={index}>
+                        <Paragraph onClick={FunctionFunc}>{title}</Paragraph>
+                        {!count && <p>{text}</p>}
+                    </div>
+
+                )
+            })}
+            
+
+
         </DivFrequently>
-      )
+    )
 }

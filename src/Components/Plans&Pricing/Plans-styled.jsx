@@ -8,10 +8,12 @@ flex-wrap: wrap;
 `;
 
 export const ContainerOne = styled.div`
-margin-top: 200px;
   display: flex;
   align-items: center;
-justify-content: space-evenly;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 200px;
 `;
 
 export const ContainerTwo = styled.div`
@@ -147,4 +149,36 @@ width: 100%;
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 70px;
+`;
+
+export const ImageTwooMonthsFree = styled.img`
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    position: absolute;
+    left: auto;
+    right: 9%;
+  padding-bottom: 45px;
+`;
+
+export const Yearly = styled.p`
+    position: relative;
+    z-index: 2;
+    opacity: .65;
+    color: #4c4d5f;
+    font-size: 16px;
+    font-weight: 600;
+`;
+
+export const DivMonthly = styled.div`
+display: flex;
+justify-content: center;
+`;
+
+export const TextHTwo = styled.h2`
+font-size: 40px;
+font-weight: 400;
+font-family: 'Amerigo-bt roman opt';
+color: #4c525a;
 `;

@@ -55,3 +55,8 @@ export const Logo = styled.img`
 width: 150px;
 padding-left: 70px;
 `;
+
+
+export const LogoDropdown = styled.img`
+height: 14px;
+`;

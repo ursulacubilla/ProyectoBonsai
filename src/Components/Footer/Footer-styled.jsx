@@ -6,7 +6,7 @@ display: flex;
 justify-content: space-between;
  margin-top: 50px;
     width: 70%;
-    height: 150px;
+    height: 800px;
     text-align: start;
     margin: 0 auto;
     margin-top: 100px;
