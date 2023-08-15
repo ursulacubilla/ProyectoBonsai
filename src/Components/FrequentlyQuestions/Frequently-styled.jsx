@@ -15,6 +15,7 @@ font-size: 32px;
 
 
 export const Paragraph = styled.h2`
+width: 770px;
 text-align: start;
 color: #4c525a;
 font-family: 'Proximanova opt',sans-serif;
@@ -32,4 +33,12 @@ cursor: pointer;
 &:hover {
     color: #00b289;
 }
+`;
+
+export const TextAccordion = styled.p`
+text-align: start;
+margin-bottom: 10px;
+font-size: 16px;
+color: #4c4d5f;
+font-family: 'Proximanova opt',sans-serif;
 `;
